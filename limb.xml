@@ -6,7 +6,7 @@
      <remove-project name="platform/frameworks/base" />
 	 <remove-project name="device/samsung/maguro" />
 
-     <project path="frameworks/base" name="Limb/platform_frameworks_base" remote="github" branch="limb-dev" />
-	 <project path="device/samsung/maguro" name="Limb/device_samsung_maguro" remote="github" branch="limb-dev" groups="device,tuna" />
+     <project path="frameworks/base" name="Limb/platform_frameworks_base" remote="github" revision="limb-dev" />
+	 <project path="device/samsung/maguro" name="Limb/device_samsung_maguro" remote="github" revision="limb-dev" groups="device,tuna" />
 	 
  	</manifest>
