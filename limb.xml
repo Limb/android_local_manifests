@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <manifest>
+
+     <remote name="limb" fetch="git://github.com/" />
+
+     <remove-project name="platform/frameworks/base" />
+	 <remove-project name="device/samsung/maguro" />
+
+     <project path="frameworks/base" name="Limb/platform_frameworks_base" remote="limb" branch="limb-dev" />
+	 <project path="device/samsung/maguro" name="Limb/device_samsung_maguro" remote="limb" branch="limb-dev" groups="device,tuna" />
+
+ 	</manifest>
