@@ -5,8 +5,12 @@
 
      <remove-project name="platform/frameworks/base" />
 	 <remove-project name="device/samsung/maguro" />
+	 <remove-project name="device/samsung/tuna" />
 
-     <project path="frameworks/base" name="Limb/platform_frameworks_base" remote="github" revision="limb-dev" />
-	 <project path="device/samsung/maguro" name="Limb/device_samsung_maguro" remote="github" revision="limb-dev" groups="device,tuna" />
+     <project path="frameworks/base" name="Limb/android_frameworks_base" remote="github" revision="limb-dev" />
+	 <project path="device/samsung/tuna" name="Limb/android_device_samsung_tuna" remote="github" revision="limb-dev" groups="device,tuna" />
+	 <project path="device/samsung/maguro" name="Limb/android_device_samsung_maguro" remote="github" revision="limb-dev" groups="device,tuna" />
+	 <project path="packages/apps/Focal" name="xplodwild/android_packages_apps_Focal" remote="github" revision="master" />
+	 <project path="external/Focal" name="xplodwild/android_external_Focal" remote="github" revision="master" />
 	 
  	</manifest>
